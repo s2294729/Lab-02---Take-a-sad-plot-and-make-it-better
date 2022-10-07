@@ -25,7 +25,7 @@ Team member 1 should pull to download updates and begins here.
 
 ### Exercise 1
 
-*Remove this text and add your answer here. No code needed for this exercise!*
+*55*
 
 
 Team member 1 should knit, stage & commit, and push all changes to GitHub.
@@ -50,7 +50,7 @@ staff_long
 
 ### Exercise 3
 
-*Remove this text and add your answer here.*
+*We were correct in question 1*
 
 ```{r staff-long-inspect}
 # remove this comment and add your code here
@@ -66,7 +66,7 @@ Team member 3 should pull to download updates and begins here.
 
 ### Exercise 4
 
-*Remove this text and add your answer here.*
+*There are no lines showing data.*
 
 ```{r lineplot-1}
 # remove this comment and add your code here
