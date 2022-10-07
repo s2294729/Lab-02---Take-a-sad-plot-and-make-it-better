@@ -25,7 +25,8 @@ Team member 1 should pull to download updates and begins here.
 
 ### Exercise 1
 
-Answer: There are 55 rows in all
+*Remove this text and add your answer here. No code needed for this exercise!*
+
 
 Team member 1 should knit, stage & commit, and push all changes to GitHub.
 
@@ -37,12 +38,13 @@ Team member 2 should pull to download updates and begins here.
 
 ```{r staff-long-create}
 # uncomment and edit the code below
-#staff_long <- ___ %>%
-#  ___(
-#    cols = ___, 
-#    names_to = "___",
-#    values_to = "___"
-#    )
+staff_long <- staff %>%
+    pivot_longer(
+    cols = -faculty_type, 
+    names_to = "year",
+    values_to = "number_or_people"
+    )
+staff_long
 ```
 
 
