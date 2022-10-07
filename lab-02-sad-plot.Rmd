@@ -69,7 +69,9 @@ Team member 3 should pull to download updates and begins here.
 *There are no lines showing data.*
 
 ```{r lineplot-1}
-# remove this comment and add your code here
+staff_long %>%
+     ggplot(aes(x = year, y = number_or_people, color = faculty_type)) +
+     geom_line()
 ```
 
 
